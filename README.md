@@ -25,5 +25,5 @@ Komponen Card '<ion-card>' digunakan untuk menampilkan informasi pengguna dalam 
 Komponen Modal '<ion-modal>' digunakan untuk menampilkan jendela pop-up berisi informasi kontak lebih lanjut, yang bisa dibuka dengan tombol "Selengkapnya".
 
 ### 4. Hasil SS
-![Screenshot Halaman Utama](ss/halamanutama.png.png)
+![Screenshot Halaman Utama](ss/halamanutama.png)
 ![Screenshot Saat Modal Dibuka](ss/openmodal.png)
