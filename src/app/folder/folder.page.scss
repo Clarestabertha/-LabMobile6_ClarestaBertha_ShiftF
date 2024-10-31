@@ -1,28 +1,74 @@
-ion-menu-button {
-  color: var(--ion-color-primary);
+ion-content {
+  --background: #8AAEE0;
+  --color: #fff;
 }
 
-#container {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.custom-menu-button {
+  --color: white; /* Mengubah warna ikon menjadi putih */
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-toolbar {
+  --background: #395886;
+  --color: white;
+
+  --min-height: 80px;
+  --padding-top: 20px;
+  --padding-bottom: 20px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
-  margin: 0;
+.custom-title {
+  font-size: 1.4rem; /* Ubah ukuran sesuai keinginan, misalnya 1.4rem */
+  font-weight: bold; /* Tambahkan ini jika ingin teks lebih tebal */
+}
+  
+.custom-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+/* Gaya untuk memperbesar ukuran font pada isi kartu */
+.card-content-text {
+  font-size: 1.5rem; /* Ubah ukuran sesuai keinginan */
+  line-height: 1.5; /* Ubah tinggi garis untuk spasi yang lebih baik */
+}
+ion-card {
+  --background: #628ECB;
+  --color: white;
 }
 
-#container a {
-  text-decoration: none;
+ion-card-title {
+  --color: white;
+}
+.introduce-text {
+  margin-top:70px; /* Menambahkan jarak atas dan bawah */
+  font-size: 1.4rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-button:focus {
+  outline: none;            /* Menghilangkan outline saat tombol diklik */
+}
+
+ion-button {
+  --background: #628ECB; /* Ganti dengan warna yang diinginkan */
+  --color: white;        /* Warna teks */
+  --box-shadow: 0 5px 6px 0 rgb(0, 0, 0, 0.25); /* Bayangan */
+  
+  --padding-top: 12px;  /* Ukuran atas padding */
+  --padding-bottom: 12px; /* Ukuran bawah padding */
+  --padding-start: 20px; /* Ukuran padding kiri */
+  --padding-end: 20px;   /* Ukuran padding kanan */
+  font-size: 18px;       /* Ukuran font untuk teks */
+  border-radius: 8px;    /* Membulatkan sudut tombol */
+}
+ion-input {
+  --background: white;  /* Mengubah latar belakang input menjadi putih */
+  --color: black;       /* Mengubah warna teks menjadi hitam untuk kontras */
+}
+.custom-text{
+  font-size: 1.3rem; /* Ubah ukuran sesuai keinginan, misalnya 1.4rem */
 }
